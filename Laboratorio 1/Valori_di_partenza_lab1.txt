@@ -1,0 +1,97 @@
+12:30 27/11/2022RIFAI TUTTI I CALCOLI CON t=2.571 hai sbagliato tutto senno, i gdl sono 5!
+
+TERMOCOPPIA
+OK_1.Ambiente - 100: Crescente 
+metodo grafico [ms] 10x
+[57 79 100 102 83 133]
+metodo analitico y0 = 1900
+tempi [ms] 10x
+[3 22 55 100 147 154]
+valori [mV] 100x
+[100 350 850 1230 1500 1600]
+
+OK_2. 100 - Ambiente: Decrescente 
+metodo grafico [s] 0.2x
+[1 1.2 1.8 2.4 2.7 2.7]
+metodo analitico y0 = 2300 
+tempi [s] 0.2x
+[0.2 0.6 1.14 1.8 2.8 4.4]
+valori [mV] 100x
+[2000 1560 1200 900 670 450] 
+
+OK_3.100 - 0: Decrescente
+metodo grafico [ms] 50x
+[100 60 60 100 70 140]
+metodo analitico y0 [mV] = 1650
+tempi x [ms] 50x NON PRENDO IL PRIMO PUNTO
+[50 100 150 300 400 550]
+tensioni y [mV] 100x 
+[1300 930 450 270 130 100]
+
+TERMISTORE
+4. libero 0 - 100: decrescente 
+metodo grafico [ms] 50x
+[250 600 575 600 500 550]
+
+5. involucro 0-100: decrescente
+metodo grafico [s] 0.5x
+[4.75 5.85 6 6 6.5 7]
+
+6. Cella di carico prima evoluzione libera
+tempi x [ms] 10x
+tensioni y [mV] 100x
+n=1, ymax = 500, ymaxi = 300
+n=2, ymax = 500, ymaxi = 200
+T_01 = 50; T_02 = 100
+
+N = [1 2]
+ymax = [500 500]
+ymaxi = [300 200]
+T_0i = [50 100]
+
+7. Cella di carico seconda evoluzione libera
+tempi x [ms] 10x
+tensioni y [mV] 100x
+n=1, ymax = 450 ymaxi = 250
+n=2, ymax = 450 ymaxi = 100
+T_01 = 50; T_02 = 95
+
+N = [1 2]
+ymax = [450 450]
+ymaxi = [250 100]
+T_0i = [50 95]
+
+8. Cella di carico terza evoluzione libera
+tempi x [ms] 10x
+tensioni y [mV] 66.4x
+n=1, ymax = 398.4 ymaxi = 265.6
+n=2, ymax = 398.4 ymaxi = 132.8
+T_01 = 50; T_02 = 97
+
+N = [1 2]
+ymax = [398.4 398.4]
+ymaxi = [265.6 132.8]
+T_0i = [50 97]
+
+9. Cella di carico con 1kg 
+tempi x [ms] 20x
+tensioni y [mV] 66.4x
+N = 1
+ymax = 664
+ymaxi = 531.2 
+T_0 = 130
+
+10. cella di carico con 2kg 
+tempi x [ms] 50x
+tensioni y [mV] 100x
+N = 3
+ymax = 500
+ymaxi = 300 
+T_0 = 950
+       
+       
+       
+
+
+
+
